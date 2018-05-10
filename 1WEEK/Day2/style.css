@@ -1,0 +1,81 @@
+/* Here is a comment */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+    font-family: consolas, courier;
+    font-size: 20px;
+}
+
+img {
+	padding: 20px 20px 20px 120px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #212428;
+    padding-right: 120px;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    background-color: #212428;
+    font-size: 20px;
+    line-height: 45px;
+    padding: 10px;
+}
+
+
+h1,
+h2,
+h3 {
+	font-family: 'Roboto Slab', serif;
+}
+
+h1 {
+	color:#333333;
+	font-size: 40px;
+	margin-top: 40px;
+	text-align: left;
+}
+
+h2,
+a {
+	margin: 10px 0;
+	font-size: 25px;
+	color: #ff0099;
+	text-align: left;
+}
+
+h3 {
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+p {
+	font-size: 18px;
+	color: #58585f;
+}
+
+nav {
+	padding: 0;
+}
+
+.divider {
+	text-align: center;
+}
+
+.content {
+	padding: 0 10% 2px;
+}
+
