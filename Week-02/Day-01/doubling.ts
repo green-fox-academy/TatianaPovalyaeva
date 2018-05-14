@@ -1,3 +1,5 @@
+'use strict';
+export {};
 
 let baseNum: number = 123;
 
