@@ -1,0 +1,9 @@
+'use strict';
+export {};
+
+function sayHello () {
+    console.log ('Hello World");
+}
+function greet(greetStr: string, nameStr: string)
+sayHello ();
+sayHello ()

@@ -1,6 +1,5 @@
 'use strict';
 export {};
-
 let lineCount: number = 4;
 let out: string = '';
 let stars: number = 1;
@@ -11,6 +10,7 @@ for (let i = 1; i <= lineCount; i++) {
         out += " ";
         } 
         else {out += "*";}
+        //else {out += i+","+j+' ';}
     }
 console.log (out);
 stars +=2;
