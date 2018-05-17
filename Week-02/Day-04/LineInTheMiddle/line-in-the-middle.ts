@@ -15,7 +15,7 @@ ctx.stroke();
 
 ctx.beginPath();
 ctx.moveTo(300, 0);
-ctx.lineTo(300, 400);
+ctx.lineTo(00, 400);
 ctx.strokeStyle = "green";
 ctx.stroke();
 
