@@ -8,9 +8,16 @@ let charEncoding: string = 'utf8';
 
 function readEncryptedText(textFile: string): string {
   let fileContent: string = fs.readFileSync(textFile, charEncoding);
-   console.log(fileContent.split('\r\n').reverse())
-   return
 
-  }
+  let output = fileContent
+    .split('\r\n')
+    .map(
+      (line) => line
+        .split('')
+        .reverse()
+        .join('')
+    ).join('\r\n');
 
-readEncryptedText('reversed-lines.txt')
+  return output
+}
+console.log (readEncryptedText('reversed-lines.txt'))
