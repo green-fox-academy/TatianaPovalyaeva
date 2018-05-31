@@ -1,10 +1,10 @@
 'use strict';
-export {};
+export { };
 
-let animals: string[] = ["kuty", "macsk", "cic"].map(function(input) {
-    return input + 'a' ;
-  });
-  console.log(animals);
+let animals: string[] = ["kuty", "macsk", "cic"].map(function (input) {
+  return input + 'a';
+});
+console.log(animals);
 
 
 // -  Create an array variable named `animals`
