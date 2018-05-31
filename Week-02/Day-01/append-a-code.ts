@@ -1,11 +1,11 @@
 'use strict';
-export {};
+export { };
 
 let typo: string = 'kuty';
 function appendA(input: string): string {
-    return input +'a';
+    return input + 'a';
 }
-console.log(appendA (typo));
+console.log(appendA(typo));
 
 // -  Create a string variable named `typo` and assign the value `kuty` to it
 // -  Write a function called `appendA` that gets a string as an input,
