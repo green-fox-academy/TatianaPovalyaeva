@@ -12,7 +12,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/doubling', (req, res) => {
-  if(req.query.input !== undefined) {
+  if (req.query.input !== undefined) {
     res.json({
       received: parseInt(req.query.input),
       result: parseInt(req.query.input) * 2,
@@ -25,13 +25,13 @@ app.get('/doubling', (req, res) => {
 });
 
 app.get('/greeter', (req, res) => {
-  if(req.query.name && req.query.title) {
+  if (req.query.name && req.query.title) {
     res.json({
-      welcome_message:`Oh, hi there ${req.query.name}, my dear ${req.query.title}!`
+      welcome_message: `Oh, hi there ${req.query.name}, my dear ${req.query.title}!`
     });
   } else if (req.query.name) {
     res.json({
-      error:`Please provide a title!`
+      error: `Please provide a title!`
     });
   } else {
     res.json({
