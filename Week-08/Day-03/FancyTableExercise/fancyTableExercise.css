@@ -1,0 +1,27 @@
+table {
+  border-collapse: collapse;
+  font-family: sans-serif;
+  color: grey;
+}
+
+thead {
+  background-color: black;
+  color: aliceblue;
+}
+
+td, th {
+  padding: 20px 155px 20px 30px;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: rgb(206, 202, 202);
+}
+
+tbody tr:nth-child(even) {
+  background-color: white;
+}
+
+body {
+  background-color: blue;
+}
+
