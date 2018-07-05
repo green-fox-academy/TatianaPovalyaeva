@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Tables and forms</title>
+  <link rel="stylesheet" type="text/css" media="screen" href="logInForm.css" />
+</head>
+
+<body>
+ <div>
+    <form>
+      <h1>
+        ACCOUNT LOGIN
+      </h1>
+      <label>
+        <p>USERNAME</p>
+        <input type="text" name="username" id="username" placeholder="your name" autofocus required>
+      </label>
+      <label>
+        <p>PASSWORD</p>
+        <input type="text" name="password"
+        placeholder="your password" required>
+      </label>
+      <a href="./passwordrestorer.html">Forgot Password?</a>
+      <button type="submit">Login</button>
+    </form>
+  </div>
+
+  <script>
+    document.querySelector('.my-form').addEventListener('submit', (e) => {
+      e.preventDefault();
+      const elements = e.target.elements;
+      console.log(elements.username.value);
+    });
+  </script>
+</body>
+
+</html>
